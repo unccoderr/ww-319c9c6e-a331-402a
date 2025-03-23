@@ -5,11 +5,11 @@
 Starts client app container 
 
 ```shell
-docker-compose -f .\client\docker-compose.yaml --env-file .\.env up -d
+docker-compose -f ./client/docker-compose.yaml --env-file ./.env up -d
 ```
 Starts server containers
 - Infrastructure services (postgres, adminer)
 - Application API service
 ```shell
-docker-compose -f .\server\docker-compose.yaml --env-file .\.env up -d
+docker-compose -f ./server/docker-compose.yaml --env-file ./.env up -d
 ```
